@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.code {
+  background-color: #282A36;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  color: #F8F8F2;
+  padding: 40px;
+  font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.c-magento {
+  color: #FF79C6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.c-yellow {
+  color: #F1FA8C;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-colors {
+  color: #282A36;
+  color: #F8F8F2;
+  color: #44475A;
+  color: #6272A4;
+  color: #8BE9FD;
+  color: #50FA7B;
+  color: #FFB86C;
+  color: #FF79C6;
+  color: #BD93F9;
+  color: #FF5555;
+  color: #F1FA8C;
+  color: #21222C;
+  color: #FF5555;
+  color: #50FA7B;
+  color: #F1FA8C;
+  color: #BD93F9;
+  color: #FF79C6;
+  color: #8BE9FD;
+  color: #F8F8F2;
+  color: #6272A4;
+  color: #FF6E6E;
+  color: #69FF94;
+  color: #FFFFA5;
+  color: #D6ACFF;
+  color: #FF92DF;
+  color: #A4FFFF;
+  color: #FFFFFF;
 }

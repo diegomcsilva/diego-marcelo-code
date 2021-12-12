@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="code">
+      <pre>
+        <span className="c-magento">
+          import 
+        </span> {`{`}
+            23 anos,<br/>
+            Casado,<br/>
+            1 filho e 1 pet,<br/>
+            21 - 983620335<br/>
+        {`}`} <span className="c-magento">from</span>
+        <span className="c-yellow">'Diego Marcelo Costa da Silva'</span>;
+      </pre>
+      <pre>
+        <span className="c-magento">
+          import 
+        </span> {`{`}
+            html,<br/>
+            css,<br/>
+            js,<br/>
+            vtex<br/>
+        {`}`} <span className="c-magento">from</span>
+        <span className="c-yellow">'front-end'</span>;
+      </pre>
     </div>
   );
 }
